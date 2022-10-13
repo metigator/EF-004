@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF004.CreateSession", "EF004.CreateSession\EF004.CreateSession.csproj", "{A605CA58-079C-4906-9987-897138EBBAEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF004.RetrieveData", "EF004.RetrieveData\EF004.RetrieveData.csproj", "{D7313F0F-B0D4-46FE-9E01-2BA1AF4411D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF004.RetrieveWalletById", "EF004.RetrieveWalletById\EF004.RetrieveWalletById.csproj", "{B16823DB-6625-4DA7-B669-1FB041FBFAF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF004.InsertWallet", "EF004.InsertWallet\EF004.InsertWallet.csproj", "{8CE5C10B-9E4F-4751-B679-E91884C9344F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF004.UpdateWallet", "EF004.UpdateWallet\EF004.UpdateWallet.csproj", "{E0FA407D-9B29-45F0-B0D4-73AC2DFA14AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF004.DeleteWallet", "EF004.DeleteWallet\EF004.DeleteWallet.csproj", "{E350CADA-52FF-4BD5-9CE6-FC46193CBEC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF004.TransferFunds", "EF004.TransferFunds\EF004.TransferFunds.csproj", "{AFE28465-68E7-4313-A805-34742E921352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A605CA58-079C-4906-9987-897138EBBAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A605CA58-079C-4906-9987-897138EBBAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A605CA58-079C-4906-9987-897138EBBAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A605CA58-079C-4906-9987-897138EBBAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7313F0F-B0D4-46FE-9E01-2BA1AF4411D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7313F0F-B0D4-46FE-9E01-2BA1AF4411D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7313F0F-B0D4-46FE-9E01-2BA1AF4411D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7313F0F-B0D4-46FE-9E01-2BA1AF4411D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16823DB-6625-4DA7-B669-1FB041FBFAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16823DB-6625-4DA7-B669-1FB041FBFAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16823DB-6625-4DA7-B669-1FB041FBFAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16823DB-6625-4DA7-B669-1FB041FBFAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE5C10B-9E4F-4751-B679-E91884C9344F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE5C10B-9E4F-4751-B679-E91884C9344F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE5C10B-9E4F-4751-B679-E91884C9344F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE5C10B-9E4F-4751-B679-E91884C9344F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0FA407D-9B29-45F0-B0D4-73AC2DFA14AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FA407D-9B29-45F0-B0D4-73AC2DFA14AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0FA407D-9B29-45F0-B0D4-73AC2DFA14AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0FA407D-9B29-45F0-B0D4-73AC2DFA14AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E350CADA-52FF-4BD5-9CE6-FC46193CBEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E350CADA-52FF-4BD5-9CE6-FC46193CBEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E350CADA-52FF-4BD5-9CE6-FC46193CBEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E350CADA-52FF-4BD5-9CE6-FC46193CBEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE28465-68E7-4313-A805-34742E921352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE28465-68E7-4313-A805-34742E921352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE28465-68E7-4313-A805-34742E921352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE28465-68E7-4313-A805-34742E921352}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B4E9F8A-7B89-47E6-B266-F6F0CCF11D45}
+	EndGlobalSection
+EndGlobal
